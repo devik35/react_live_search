@@ -29,7 +29,7 @@ export default function App() {
       <br />
       <br />
       <form onSubmit={onSubmit}>
-        New Item:
+       A New Item:
         <input ref={inputRef} type="text" name="text" id="text" />
         <button type="submit">Add</button>
         <br />
